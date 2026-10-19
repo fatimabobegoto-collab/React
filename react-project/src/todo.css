@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+
+first-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  /* margin-top: 400px; */
+}
+
+form {
+  /* width: 500px; */
+  min-width: 100px;
+  border-radius: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  /* position: relative; */
+  padding: 20px;
+}
+
+button {
+  /* position: absolute;
+    z-index: 1; */
+  border-radius: 100%;
+  background-color: green;
+}

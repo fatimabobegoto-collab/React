@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgb(185, 102, 148), rgb(231, 9, 231));
+
+  width: 500px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  border: 1px dotted black;
+  
+}
+
+h1 {
+  margin-bottom: 70px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+fieldset{
+    width: 250px;
+}
+
+form{
+    padding: 30px;
+}
+
+input{
+    margin-left: 50px;
+}
